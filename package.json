@@ -1,0 +1,29 @@
+{
+  "name": "cigarettes",
+  "version": "0.1.0",
+  "description": "a npm package to learn node and help me stop smoking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -f table ./",
+    "lint:fix": "eslint -f table --fix ./"
+  },
+  "keywords": [
+    "node",
+    "cigarettes"
+  ],
+  "repository": "git+https://github.com/kensongzhu/cigarettes.git",
+  "author": "fanxy-speedy <kensongzhu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kensongzhu/cigarettes/issues"
+  },
+  "homepage": "https://github.com/kensongzhu/cigarettes#readme",
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.11.1"
+  },
+  "private": false
+}

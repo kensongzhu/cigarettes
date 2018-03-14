@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "plugins": [
+    "prettier",
+    "node"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:node/recommended"
+  ],
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "quotes": [
+      "error",
+      "single"
+    ]
+  }
+}
