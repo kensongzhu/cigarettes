@@ -4,6 +4,7 @@
   "description": "a npm package to learn node and help me stop smoking",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --display-modules",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint -f table ./",
     "lint:fix": "eslint -f table --fix ./"
@@ -20,10 +21,18 @@
   },
   "homepage": "https://github.com/kensongzhu/cigarettes#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
     "eslint": "^4.18.2",
-    "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.0",
-    "prettier": "^1.11.1"
+    "prettier": "^1.11.1",
+    "uglifyjs-webpack-plugin": "^1.2.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
   },
-  "private": false
+  "private": false,
+  "dependencies": {
+  }
 }
