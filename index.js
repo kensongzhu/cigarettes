@@ -1,5 +1,3 @@
 'use strict';
 
-const Cigarettes = require('./lib/cigarettes');
-
-module.exports = Cigarettes;
+module.exports = require('./lib/cigarettes');

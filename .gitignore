@@ -61,7 +61,3 @@ typings/
 
 # idea
 .idea/
-
-# deployment
-dist/
-build/
