@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Package Test</title>
+    <script type="text/javascript" src="../../dist/cigarettes.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    var cigarettes = new Cigarettes('Marlboro');
+
+    cigarettes.hasBrand().then(function(result) {
+        console.log(result);
+    });
+
+</script>
+</body>
+</html>
